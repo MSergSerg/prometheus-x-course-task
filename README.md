@@ -1,6 +1,6 @@
 # Check Out Project
 
-Open my project [here](https://dariia-zhukovska.github.io/prometheus-x-course-task/)
+Open my project [here](https://MSergSerg.github.io/prometheus-x-course-task/)
 
 # Getting Started with Create React App
 
