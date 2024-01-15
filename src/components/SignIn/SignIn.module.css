@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 72px;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4vw auto;
+}
+
+.bioSubtitle {
+  align-self: center;
+  margin: 0;
+  margin-bottom: 16px;
+  width: 320px;
+  height: 24px;
+  color: #000000;
+  font-family: "Barlow";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.24px;
+}
+
+.avatarNew {
+  margin: 0;
+  margin-bottom: 16px;
+  max-width: 160px;
+  border: none;
+}
+
+.usernameInput {
+  margin: 0 auto 16px;
+  width: 200px;
+  height: 56px;
+  padding-left: 16px;
+
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.24px;
+  color: #000000;
+
+  border-radius: 8px;
+  border: transparent;
+
+  background-repeat: no-repeat;
+  background: rgba(201, 204, 209, 0.24);
+}
+
+/* Buttons */
+
+.buttonSignIn {
+  padding: 10px 44px;
+  width: 200px;
+
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 8px;
+  border: transparent;
+  background: #f45650;
+  transition: all 0.2s ease-in-out;
+}
+
+.buttonSignIn:hover {
+  transform: scale(1.1);
+}
+
+.buttonSignIn[disabled] {
+  background-color: #d3d3d3;
+  color: #808080;
+  cursor: not-allowed;
+}
+
+@media (max-width: 767px) {
+  .content {
+    margin-top: 10vh;
+  }
+}
